@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界杯 · 知识库入口 — pc-wccup.com 介绍页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #1e1e1e;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* 极简标题层级 */
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin-top: 1.8rem;
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid #dcdcd6;
+      padding-bottom: 0.4rem;
+      color: #1c1b1b;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-top: 2.2rem;
+      margin-bottom: 0.7rem;
+      color: #2a2a28;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-top: 1.6rem;
+      margin-bottom: 0.4rem;
+      color: #3b3b38;
+    }
+
+    p {
+      margin-bottom: 1.1rem;
+    }
+
+    a {
+      color: #185c7a;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: #0a3f55;
+      text-decoration-color: #0a3f55;
+    }
+
+    /* 提示卡 */
+    .notice-card,
+    .info-box {
+      background: #ffffff;
+      border-left: 3px solid #b8b4ac;
+      padding: 1rem 1.4rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    }
+
+    .notice-card strong,
+    .info-box strong {
+      font-weight: 500;
+      color: #3d3d39;
+    }
+
+    .info-box {
+      border-left-color: #7f8c8d;
+    }
+
+    /* 目录感网格 */
+    .index-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 1.4rem;
+      margin: 1.4rem 0 1.8rem;
+    }
+
+    .index-item {
+      background: #ffffff;
+      padding: 0.9rem 1.1rem;
+      border-radius: 6px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e7e5e0;
+      transition: border-color 0.1s;
+    }
+
+    .index-item:hover {
+      border-color: #b5b0a8;
+    }
+
+    .index-item .label {
+      font-size: 0.85rem;
+      color: #6b6964;
+      letter-spacing: 0.3px;
+      display: block;
+      margin-bottom: 0.1rem;
+    }
+
+    .index-item .title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #1f1f1c;
+    }
+
+    .index-item .desc {
+      font-size: 0.9rem;
+      color: #4c4b47;
+      margin-top: 0.2rem;
+    }
+
+    /* 分隔装饰 */
+    .hr-light {
+      border: 0;
+      height: 1px;
+      background: #e2dfd9;
+      margin: 2.2rem 0;
+    }
+
+    /* 响应式 */
+    @media (max-width: 500px) {
+      body {
+        padding: 1.2rem 1rem 3rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      .index-grid {
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+      }
+      .notice-card,
+      .info-box {
+        padding: 0.8rem 1rem;
+      }
+    }
+
+    /* 用于点缀，不占内容 */
+    .footnote {
+      margin-top: 2.8rem;
+      font-size: 0.8rem;
+      color: #8c8a84;
+      text-align: center;
+      border-top: 1px solid #e8e5df;
+      padding-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <h1>世界杯 · 信息库</h1>
+
+  <p>如果你是第一次来到 <strong>pc-wccup.com</strong>，很可能想快速判断这个站点究竟提供什么。它并非一个资讯门户或赛事直播平台，而是一处围绕「世界杯」主题的<strong>知识索引与资源整理入口</strong>。站内聚合了赛事历史、经典瞬间、规则演变、球队记录等模块，方便你在需要时直接定位到具体内容。</p>
+
+  <p>本页以目录感方式列出站点的主要分区，你可以将其视为一张「知识地图」。每个分区都对应相对独立的专题，彼此之间通过关联条目连接，构成一个轻量的世界杯知识库。</p>
+
+  <div class="index-grid">
+    <div class="index-item">
+      <span class="label">专题一</span>
+      <div class="title">🏆 历届决赛档案</div>
+      <div class="desc">从 1930 至今的决赛对阵、比分、关键事件</div>
+    </div>
+    <div class="index-item">
+      <span class="label">专题二</span>
+      <div class="title">📋 规则与赛制变迁</div>
+      <div class="desc">越位规则、小组赛改制、加时赛与点球演变</div>
+    </div>
+    <div class="index-item">
+      <span class="label">专题三</span>
+      <div class="title">🌍 参赛国家队纪录</div>
+      <div class="desc">历届参赛队、首秀、最佳战绩、连续晋级</div>
+    </div>
+    <div class="index-item">
+      <span class="label">专题四</span>
+      <div class="title">📖 经典语录 &amp; 文化符号</div>
+      <div class="desc">解说金句、球迷文化、吉祥物与主题曲</div>
+    </div>
+  </div>
+
+  <p>四个专题之间并非孤立，例如「决赛档案」中的某次判罚往往对应「规则变迁」中的修订条目。你可以根据兴趣从任意模块进入，站内也设置了交叉引用链接，方便前后对照。</p>
+
+  <div class="notice-card">
+    <strong>🧭 使用提示</strong> 部分专题页面仍在逐步补充内容，目前已完成决赛档案与规则演变两个主干。如果你寻找的是某一届预选赛数据或详细的球员个人统计，建议先查阅站内「相关外部资源」列表，那里收录了经筛选的第三方参考链接。
+  </div>
+
+  <h2>关于本入口页</h2>
+  <p>这一页的目的是帮助你节省摸索时间，直接了解站点结构。它本身不包含深层内容，但通过上方的索引卡片你可以判断哪部分符合当前需求。如果你只是想找一处安静回顾世界杯常识的地方，这个站点或许合宜。</p>
+
+  <h2>可预期的信息类型</h2>
+  <p>站内内容偏向于<strong>事实整理与脉络梳理</strong>，不涉及实时比分、博彩或商业推广。所有引用数据均标注来源（FIFA 官方统计、权威媒体档案等），并在必要时附上说明。例如在「经典语录」模块中，你看到的每一句话都会附带年份、场景与原始出处。</p>
+
+  <div class="info-box">
+    <strong>🔍 相关信息</strong> 如果你对某个具体年份的细节有疑问（例如 1974 年世界杯的赛制分组），可以通过站内搜索（位于每个专题页顶部）直接定位。另外，<a href="https://pc-wccup.com">世界杯</a>专题首页也设置了快速筛选标签，按年代、按大洲、按关键词均可。
+  </div>
+
+  <h2>常见疑问摘要</h2>
+  <p><strong>Q：这个站和官方 FIFA 网站有何不同？</strong><br>
+  A：pc-wccup.com 并非官方机构，而是一个独立整理的知识类站点，侧重结构化的历史档案，不提供直播或票务信息。</p>
+
+  <p><strong>Q：内容是否会更新？</strong><br>
+  A：是的，随着每届赛事结束，决赛档案、纪录表会同步更新。目前的版本覆盖截至 2022 年的完整数据。</p>
+
+  <p><strong>Q：我可以转载或引用站内内容吗？</strong><br>
+  A：大部分原始数据属于公共事实，但站内的表述方式和分类框架受著作权保护。引用时请注明来源 <a href="https://pc-wccup.com">世界杯</a> 知识库。</p>
+
+  <hr class="hr-light">
+
+  <p style="font-size: 0.95rem; color: #3d3c38;">最后补充一点：本站没有广告弹窗，也不需要注册。你可以把这里当作一个安静的世界杯资料架，随时翻阅。若你发现某个链接失效或数据存疑，可以通过页面底部的反馈入口告知维护者。</p>
+
+  <div class="footnote">
+    知识库入口 · 世界杯 · 持续修订中
+  </div>
+
+</div>
+</body>
+</html>
